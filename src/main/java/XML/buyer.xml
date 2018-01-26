@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<buyerList>
+    <buyer id="1">
+        <address>Bugulma</address>
+        <first_name>Balyageev</first_name>
+        <last_name>Rashidovich</last_name>
+        <name>Dinar</name>
+    </buyer>
+    <buyer id="2">
+        <address>New York</address>
+        <first_name>John</first_name>
+        <last_name>John</last_name>
+        <name>John</name>
+    </buyer>
+    <buyer id="3">
+        <address>Samara</address>
+        <first_name>Yurkin</first_name>
+        <last_name>Igorevich</last_name>
+        <name>Dima</name>
+    </buyer>
+</buyerList>

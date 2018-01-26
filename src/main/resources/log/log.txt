@@ -1,0 +1,81 @@
+2018-01-20 20:22:33 ERROR UserDaoImpl:30 - org.postgresql.util.PSQLException: ОШИБКА: отношение "publiclogin" не существует
+  Позиция: 29
+2018-01-20 20:23:59 ERROR UserDaoImpl:30 - org.postgresql.util.PSQLException: Имя колонки user не найдено в этом ResultSet'е.
+2018-01-20 20:24:01 ERROR UserDaoImpl:30 - org.postgresql.util.PSQLException: Имя колонки user не найдено в этом ResultSet'е.
+2018-01-20 20:24:02 ERROR UserDaoImpl:30 - org.postgresql.util.PSQLException: Имя колонки user не найдено в этом ResultSet'е.
+2018-01-20 20:24:03 ERROR UserDaoImpl:30 - org.postgresql.util.PSQLException: Имя колонки user не найдено в этом ResultSet'е.
+2018-01-20 20:24:04 ERROR UserDaoImpl:30 - org.postgresql.util.PSQLException: Имя колонки user не найдено в этом ResultSet'е.
+2018-01-20 20:27:45 ERROR UserDaoImpl:30 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+2018-01-20 20:31:46 ERROR UserDaoImpl:34 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+2018-01-20 20:35:12 ERROR UserDaoImpl:35 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+2018-01-20 20:35:14 ERROR UserDaoImpl:35 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+2018-01-20 20:36:03 ERROR UserDaoImpl:36 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+2018-01-20 20:39:28 INFO  UserDaoImpl:32 - userвошел в систему
+2018-01-20 20:45:46 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 20:46:51 ERROR UserDaoImpl:35 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+2018-01-20 20:47:01 ERROR UserDaoImpl:35 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+2018-01-20 20:47:03 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 20:47:56 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 20:48:03 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 21:07:32 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 21:09:58 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 21:10:29 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 21:11:40 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 21:15:11 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 21:16:26 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 21:16:39 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 21:18:42 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 21:21:59 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 21:29:08 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 22:31:55 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-20 22:34:39 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 11:32:45 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:26:56 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:30:14 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:32:09 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:32:36 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:36:39 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:44:03 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:45:01 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:47:20 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:47:26 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:48:56 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:52:33 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:54:17 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:56:32 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 12:59:57 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 13:00:07 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 13:02:07 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 13:04:23 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 13:06:06 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 13:07:37 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 14:01:13 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 14:02:48 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 14:03:27 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 14:13:06 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 14:19:29 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 14:21:03 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 14:22:34 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 14:23:24 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 14:24:17 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 14:26:30 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 14:28:00 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-22 15:10:49 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-23 20:54:47 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-23 20:56:21 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-23 21:07:34 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-23 21:07:34 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-23 21:24:20 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-24 10:27:01 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-24 11:52:27 INFO  UserDaoImpl:31 - user вошел в систему
+2018-01-25 15:18:16 ERROR UserDaoImpl:48 - org.postgresql.util.PSQLException: ОШИБКА: нулевое значение в столбце "id_buyer" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, user123, 123).
+2018-01-25 15:20:20 ERROR UserDaoImpl:48 - org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "login_pkey"
+  Подробности: Ключ "(id_buyer)=(1)" уже существует.
+2018-01-25 15:43:42 INFO  UserDaoImpl:27 - user вошел в систему
+2018-01-25 16:28:45 INFO  UserDaoImpl:27 - user вошел в систему
+2018-01-25 16:29:33 ERROR UserDaoImpl:48 - org.postgresql.util.PSQLException: ОШИБКА: INSERT или UPDATE в таблице "login" нарушает ограничение внешнего ключа "table_name_buyer_id_fk"
+  Подробности: Ключ (id_buyer)=(4) отсутствует в таблице "buyer".
+2018-01-25 17:00:20 ERROR UserDaoImpl:48 - org.postgresql.util.PSQLException: ОШИБКА: INSERT или UPDATE в таблице "login" нарушает ограничение внешнего ключа "table_name_buyer_id_fk"
+  Подробности: Ключ (id_buyer)=(5) отсутствует в таблице "buyer".
+2018-01-25 17:00:38 INFO  UserDaoImpl:27 - user вошел в систему

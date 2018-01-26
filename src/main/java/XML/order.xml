@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orderList>
+    <order id="1">
+        <count>5</count>
+        <id_product>2</id_product>
+        <products id="2">
+            <address>Kazan</address>
+            <count>100</count>
+            <manufacturer>Kazan</manufacturer>
+            <name>IceCream</name>
+            <price>50.0</price>
+        </products>
+    </order>
+    <order id="2">
+        <count>4</count>
+        <id_product>3</id_product>
+        <products id="3">
+            <address>China</address>
+            <count>100</count>
+            <manufacturer>China</manufacturer>
+            <name>tea</name>
+            <price>500.0</price>
+        </products>
+    </order>
+</orderList>

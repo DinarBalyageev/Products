@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<productsList>
+    <products id="1">
+        <address>Moskow</address>
+        <count>10</count>
+        <manufacturer>Moskow</manufacturer>
+        <name>Cake</name>
+        <price>500.0</price>
+    </products>
+    <products id="2">
+        <address>Kazan</address>
+        <count>100</count>
+        <manufacturer>Kazan</manufacturer>
+        <name>IceCream</name>
+        <price>50.0</price>
+    </products>
+    <products id="3">
+        <address>China</address>
+        <count>100</count>
+        <manufacturer>China</manufacturer>
+        <name>tea</name>
+        <price>500.0</price>
+    </products>
+</productsList>
