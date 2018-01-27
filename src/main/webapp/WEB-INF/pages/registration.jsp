@@ -36,11 +36,12 @@
     </table>
 </form>
 <h3 align="center"><font color="red">
-        <% String error = request.getParameter("error");%>
-        <%="invalidlogin".equals(error) ? "ѕользователь с таким логином уже зарегистрирован в системе":"" %>
-        <%="passworderror".equals(error) ? "¬веденные пароли отличаютс€":"" %>
-        <% request.setAttribute("error", "");%>
-
-</h3></font>
+    <% String error = request.getParameter("error");%>
+    <%="invalidlogin".equals(error) ? "ѕользователь с таким логином уже зарегистрирован в системе" : "" %>
+    <%="passworderror".equals(error) ? "¬веденные пароли отличаютс€" : "" %>
+<font>
+    <% request.setAttribute("error", "");%>
+        </font>
+</h3>
 </body>
 </html>
