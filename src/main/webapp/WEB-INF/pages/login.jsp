@@ -5,7 +5,8 @@
   Time: 17:50
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=windows-1251" language="java" %>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ page contentType="text/html;charset=windows-1251" language="java"%>
 <html>
 <head>
     <title>Login</title>
@@ -19,10 +20,11 @@
     <p align="center">
         <button type="submit" value="OK" style="width: 60px; height:25px;">OK</button>
         <input type="button" value="Регистрация" style="width: 100px; height:25px;"
-               onclick=" location.href='/registration.jsp'  ">
+               onclick=" location.href='/WEB-INF/pages/registration.jsp'  ">
 </form>
 <h3 align="center"><font color="red">
-        <% String error = request.getParameter("error");%>
+
+        <% Object error = request.getAttribute("error");%>
         <%="invalidauth".equals(error) ? "Неверный логин или пароль ":"" %>
         <%="enter".equals(error) ? "Регистрация прошла успешно. /n Введите логин и пароль для входа в систему ":"" %>
 

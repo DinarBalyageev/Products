@@ -11,25 +11,25 @@
 <head></head>
     <title>Products</title>
 <body>
-<table>
-        <tr>
-            <td>Название продукта </td>
-            <td>Производитель </td>
-            <td>Адрес производства </td>
-            <td>Цена </td>
-            <td>Количество </td>
-        </tr>
-        <jsp:useBean id="productList" scope="request" type="java.util.List"/>
-        <c:forEach var="product" items="${productList}">
-            <tr>
-                <td>${product.name}</td>
-                <td>${product.manufacturer}</td>
-                <td>${product.address}</td>
-                <td>${product.price} руб.</td>
-                <td><input type="number" value="1" size=50 min="1" max=${product.count} ></td>
-                <td><button value=${product.id}>Добавить</button></td>
-            </tr>
-        </c:forEach>
-    </table>
+<%--<table>--%>
+        <%--<tr>--%>
+            <%--<td>Название продукта </td>--%>
+            <%--<td>Производитель </td>--%>
+            <%--<td>Адрес производства </td>--%>
+            <%--<td>Цена </td>--%>
+            <%--<td>Количество </td>--%>
+        <%--</tr>--%>
+        <%--<jsp:useBean id="productList" scope="request" type="java.util.List"/>--%>
+        <%--<c:forEach var="product" items="${productList}">--%>
+            <%--<tr>--%>
+                <%--<td>${product.name}</td>--%>
+                <%--<td>${product.manufacturer}</td>--%>
+                <%--<td>${product.address}</td>--%>
+                <%--<td>${product.price} руб.</td>--%>
+                <%--<td><input type="number" value="1" size=50 min="1" max=${product.count} ></td>--%>
+                <%--<td><button value=${product.id}>Добавить</button></td>--%>
+            <%--</tr>--%>
+        <%--</c:forEach>--%>
+    <%--</table>--%>
 </body>
 </html>

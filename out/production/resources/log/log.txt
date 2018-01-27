@@ -76,3 +76,6 @@
 2018-01-25 16:28:45 INFO  UserDaoImpl:27 - user вошел в систему
 2018-01-25 16:29:33 ERROR UserDaoImpl:48 - org.postgresql.util.PSQLException: ОШИБКА: INSERT или UPDATE в таблице "login" нарушает ограничение внешнего ключа "table_name_buyer_id_fk"
   Подробности: Ключ (id_buyer)=(4) отсутствует в таблице "buyer".
+2018-01-25 17:00:20 ERROR UserDaoImpl:48 - org.postgresql.util.PSQLException: ОШИБКА: INSERT или UPDATE в таблице "login" нарушает ограничение внешнего ключа "table_name_buyer_id_fk"
+  Подробности: Ключ (id_buyer)=(5) отсутствует в таблице "buyer".
+2018-01-25 17:00:38 INFO  UserDaoImpl:27 - user вошел в систему
