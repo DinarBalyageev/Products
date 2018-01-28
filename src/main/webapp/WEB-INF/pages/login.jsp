@@ -18,8 +18,10 @@
         <input align="center" type="password" value="user" name="userPassword"/>
     <p align="center">
         <button type="submit" value="OK" style="width: 60px; height:25px;">OK</button>
-        <input type="button" value="Регистрация" style="width: 100px; height:25px;"
-               onclick=" location.href='/WEB-INF/pages/registration.jsp'  ">
+    <button value="Регистрация" hidden>
+</form>
+<form action="${pageContext.request.contextPath}/registration" method="get">
+    <button type="submit" value="ОК" style="width: 100px; height:25px;">Регистрация</button>
 </form>
 <h3 align="center">
     <font color="red">
