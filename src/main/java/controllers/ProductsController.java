@@ -1,6 +1,8 @@
 package controllers;
 
 
+import POJO.Products;
+import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,25 +12,21 @@ import org.springframework.web.servlet.ModelAndView;
 import service.LoginService;
 import service.ServiceProducts;
 
-import java.util.Collection;
-import java.util.Map;
+import java.util.*;
 
 @Controller
 public class ProductsController {
 
     @RequestMapping(value = "/products", method = RequestMethod.GET)
-    public Model getLogin() {
+    public ModelAndView getLogin() {
         ServiceProducts serviceProducts = new ServiceProducts();
+        ModelAndView modelAndView = new ModelAndView();
+        List<Products> productsList = serviceProducts.getAll();
+        modelAndView.addObject("productsList",productsList);
+        modelAndView.setViewName("products");
+        return modelAndView;
 
-//        req.setAttribute("productList", serviceProducts.getAll());
-//        try {
-//            req.getRequestDispatcher("/products.jsp").forward(req, resp);
-//        } catch (ServletException | IOException e) {
-//            logger.error(e);
-//        }
-        return null;
     }
-
 
     @RequestMapping(value = "/products", method = RequestMethod.POST)
     public ModelAndView postLogin() {

@@ -27,27 +27,13 @@ public class LoginController {
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public ModelAndView postLogin(@RequestParam(value = "userName") String login,
                                   @RequestParam(value = "userPassword") String password,
-    Model model) {
+                                  Model model) {
         ModelAndView modelAndView = new ModelAndView();
         LoginService loginService = new LoginService();
         if (loginService.autorization(login, password) == true) {
-            modelAndView.setViewName("products");
-        } else model.addAttribute("error", "invalidauth");
+            modelAndView.setViewName("redirect:products");
+        }   else model.addAttribute("error", "invalidauth");
         return modelAndView;
     }
 
-//    public String getLogin() {
-//        String login = req.getParameter("userName");
-//        String password = req.getParameter("userPassword");
-//
-//        LoginService loginService = new LoginService();
-//        try {
-//            if (loginService.autorization(login, password) == true) {
-//                req.getSession().setAttribute("login", login);
-//                resp.sendRedirect("/order/products");
-//            } else req.getRequestDispatcher("/login.jsp?error=invalidauth").forward(req, resp);
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//    }
 }
