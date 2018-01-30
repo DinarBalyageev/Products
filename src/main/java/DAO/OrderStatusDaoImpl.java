@@ -22,7 +22,7 @@ public class OrderStatusDaoImpl implements OrderStatusDao {
         Connection connection = connectionManager.getConnection();
         try {
             PreparedStatement preparedStatement = connection.prepareStatement
-                    ("SELECT ors.id as id_order_status, ors.id_buyer, ors.id_order,ors.status" +
+                    ("SELECT ors.id_order as id_order_status, ors.id_buyer, ors.id_order,ors.status" +
                             " FROM public.orderstatus ors");
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
@@ -107,5 +107,23 @@ public class OrderStatusDaoImpl implements OrderStatusDao {
             logger.error(e);
         }
         return productsList;
+    }
+
+    @Override
+    public int add(int id_buyer, String status) {
+        int id = 0;
+        Connection connection = connectionManager.getConnection();
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement
+                    ("INSERT INTO public.orderstatus (id_buyer, status) VALUES (?,?) RETURNING id_order");
+            preparedStatement.setInt(1, id_buyer);
+            preparedStatement.setString(2, status);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            resultSet.next();
+            id = resultSet.getInt("id_order");
+        } catch (SQLException e) {
+            logger.error(e);
+        }
+        return id;
     }
 }

@@ -128,6 +128,30 @@ public class ProductsDaoImpl implements ProductsDao {
         return products;
     }
 
+    @Override
+    public Products findId(int id) {
+        Connection connection = connectionManager.getConnection();
+        Products products = new Products();
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement
+                    ("SELECT id, name, manufacturer, address, price, count " +
+                            "FROM public.products WHERE id=?");
+            preparedStatement.setInt(1, id);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                products.setId(resultSet.getInt("id"));
+                products.setName(resultSet.getString("name"));
+                products.setManufacturer(resultSet.getString("manufacturer"));
+                products.setAddress(resultSet.getString("address"));
+                products.setCount(resultSet.getInt("count"));
+                products.setPrice(resultSet.getFloat("price"));
+            }
+        } catch (SQLException e) {
+            logger.error(e);
+        }
+        return products;
+    }
+
 
     public void inXML() throws JAXBException {
         ProductsDao productsDao = new ProductsDaoImpl();

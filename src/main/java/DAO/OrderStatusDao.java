@@ -12,4 +12,5 @@ public interface OrderStatusDao {
     Boolean setStatus(int id_order, String status);
     Buyer gerBuyer(int id_order);
     List<Products> getOrderProducts(int id_order);
+    int add(int id_buyer, String status);
 }

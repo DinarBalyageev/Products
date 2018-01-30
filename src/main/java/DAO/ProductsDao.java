@@ -13,6 +13,7 @@ public interface ProductsDao {
     Boolean add(String name, String manufacturer, String address, int count, float price);
     Boolean addObject(Products products);
     Products find(String name);
+    Products findId(int id);
     void inXML() throws JAXBException;
     void outXML() throws JAXBException;
 

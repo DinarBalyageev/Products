@@ -51,8 +51,8 @@
     </role>
     <schema id="11" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2018-01-25.15:20:09.880</IntrospectionTimestamp>
-      <IntrospectionStateNumber>819</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-01-30.23:37:57.806</IntrospectionTimestamp>
+      <IntrospectionStateNumber>851</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -78,15 +78,7 @@
       <CacheSize>1</CacheSize>
       <DataType>integer</DataType>
     </sequence>
-    <sequence id="18" parent="11" name="login_id_buyer_seq">
-      <ObjectId>32787</ObjectId>
-      <StateNumber>820</StateNumber>
-      <SequenceIdentity>1</SequenceIdentity>
-      <BelongsToColumn>1</BelongsToColumn>
-      <CacheSize>1</CacheSize>
-      <DataType>bigint</DataType>
-    </sequence>
-    <sequence id="19" parent="11" name="Buyer_id_seq">
+    <sequence id="18" parent="11" name="Buyer_id_seq">
       <ObjectId>16622</ObjectId>
       <StateNumber>634</StateNumber>
       <SequenceIdentity>1..2147483647</SequenceIdentity>
@@ -94,7 +86,7 @@
       <CacheSize>1</CacheSize>
       <DataType>integer</DataType>
     </sequence>
-    <sequence id="20" parent="11" name="OrderStatus_id_seq">
+    <sequence id="19" parent="11" name="OrderStatus_id_seq">
       <ObjectId>16671</ObjectId>
       <StateNumber>642</StateNumber>
       <SequenceIdentity>1..2147483647</SequenceIdentity>
@@ -102,13 +94,21 @@
       <CacheSize>1</CacheSize>
       <DataType>integer</DataType>
     </sequence>
-    <sequence id="21" parent="11" name="Products_id_seq">
+    <sequence id="20" parent="11" name="Products_id_seq">
       <ObjectId>16630</ObjectId>
       <StateNumber>636</StateNumber>
       <SequenceIdentity>1..2147483647</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
       <DataType>integer</DataType>
+    </sequence>
+    <sequence id="21" parent="11" name="login_id_buyer_seq">
+      <ObjectId>32787</ObjectId>
+      <StateNumber>820</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
     </sequence>
     <sequence id="22" parent="11" name="order_id_seq">
       <ObjectId>24576</ObjectId>
@@ -267,48 +267,41 @@
       <RefColNames>id</RefColNames>
       <OnUpdate>cascade</OnUpdate>
     </foreign-key>
-    <column id="46" parent="26" name="id">
+    <column id="46" parent="26" name="id_order">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>642</StateNumber>
+      <StateNumber>851</StateNumber>
       <DefaultExpression>nextval(&apos;&quot;OrderStatus_id_seq&quot;&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
       <SequenceName>OrderStatus_id_seq</SequenceName>
     </column>
-    <column id="47" parent="26" name="id_order">
-      <Position>2</Position>
-      <DataType>integer|0</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>642</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="48" parent="26" name="id_buyer">
+    <column id="47" parent="26" name="id_buyer">
       <Position>3</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>642</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="49" parent="26" name="status">
+    <column id="48" parent="26" name="status">
       <Position>4</Position>
       <DataType>varchar|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>642</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="50" parent="26" name="OrderStatus_pkey">
+    <index id="49" parent="26" name="OrderStatus_pkey">
       <ObjectId>16680</ObjectId>
-      <ColNames>id</ColNames>
+      <ColNames>id_order</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="51" parent="26" name="OrderStatus_pkey">
+    <key id="50" parent="26" name="OrderStatus_pkey">
       <ObjectId>16681</ObjectId>
-      <ColNames>id</ColNames>
+      <ColNames>id_order</ColNames>
       <UnderlyingIndexName>OrderStatus_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="52" parent="26" name="id_buyer">
+    <foreign-key id="51" parent="26" name="id_buyer">
       <ObjectId>16682</ObjectId>
       <ColNames>id_buyer</ColNames>
       <RefTableId>16624</RefTableId>
@@ -319,7 +312,7 @@
       <OnDelete>restrict</OnDelete>
       <OnUpdate>cascade</OnUpdate>
     </foreign-key>
-    <column id="53" parent="27" name="id">
+    <column id="52" parent="27" name="id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
@@ -328,44 +321,44 @@
       <TypeId>23</TypeId>
       <SequenceName>Products_id_seq</SequenceName>
     </column>
-    <column id="54" parent="27" name="name">
+    <column id="53" parent="27" name="name">
       <Position>2</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>636</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="55" parent="27" name="manufacturer">
+    <column id="54" parent="27" name="manufacturer">
       <Position>3</Position>
       <DataType>varchar(100)|0</DataType>
       <StateNumber>636</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="56" parent="27" name="address">
+    <column id="55" parent="27" name="address">
       <Position>4</Position>
       <DataType>varchar(100)|0</DataType>
       <StateNumber>636</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="57" parent="27" name="count">
+    <column id="56" parent="27" name="count">
       <Position>6</Position>
       <DataType>integer|0</DataType>
       <StateNumber>636</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="58" parent="27" name="price">
+    <column id="57" parent="27" name="price">
       <Position>7</Position>
       <DataType>double precision|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>687</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <index id="59" parent="27" name="Products_pkey">
+    <index id="58" parent="27" name="Products_pkey">
       <ObjectId>16636</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="60" parent="27" name="Products_pkey">
+    <key id="59" parent="27" name="Products_pkey">
       <ObjectId>16637</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>Products_pkey</UnderlyingIndexName>
