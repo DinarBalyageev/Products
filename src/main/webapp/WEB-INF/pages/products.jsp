@@ -37,7 +37,7 @@
     </c:forEach>
 </table>
 
-<form action="${pageContext.request.contextPath}/order" method="get">
+<form action="${pageContext.request.contextPath}/products" method="post">
     <input name="id" value="1" hidden>
     <input name="count" value="1" hidden>
     <button type="submit" name="target" value="order" style="width: 120px; height:40px;">Просмотреть все заказы</button>

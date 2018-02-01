@@ -10,7 +10,7 @@ import java.util.List;
 
 public interface BuyerDao {
     List<Buyer> getAll();
-    Boolean add(String name, String first_name, String last_name, String address);
+    int add(String name, String first_name, String last_name, String address);
     void inXML();
     void outXML();
     Boolean addObject(Buyer buyer);

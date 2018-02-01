@@ -18,7 +18,6 @@ public class LoginController {
         return null;
     }
 
-
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public ModelAndView postLogin(@RequestParam(value = "userName") String login,
                                   @RequestParam(value = "userPassword") String password,
@@ -31,5 +30,4 @@ public class LoginController {
         }   else model.addAttribute("error", "invalidauth");
         return modelAndView;
     }
-
 }

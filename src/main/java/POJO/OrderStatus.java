@@ -15,11 +15,20 @@ public class OrderStatus {
         this.status = status;
     }
 
-    public OrderStatus(int id, Order order, Buyer buyer, String status) {
-        this.id = id;
+    public OrderStatus(int idOrder, Order order, int idBuyer, String status) {
+        this.idOrder = idOrder;
         this.order = order;
-        this.buyer = buyer;
+        this.idBuyer = idBuyer;
         this.status = status;
+    }
+
+    public OrderStatus(int idOrder, int idBuyer, String status) {
+        this.idOrder = idOrder;
+        this.idBuyer = idBuyer;
+        this.status = status;
+    }
+
+    public OrderStatus() {
     }
 
     public int getId() {

@@ -83,20 +83,23 @@ public class BuyerDaoImpl implements BuyerDao {
     }
 
     @Override
-    public Boolean add(String name, String first_name, String last_name, String address) {
+    public int add(String name, String first_name, String last_name, String address) {
+        int id = 0;
         Connection connection = connectionManager.getConnection();
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(
-                    "INSERT INTO public.buyer (name, first_name, last_name, address) VALUES (?,?,?,?)");
+                    "INSERT INTO public.buyer (name, first_name, last_name, address) VALUES (?,?,?,?) RETURNING id");
             preparedStatement.setString(1, name);
             preparedStatement.setString(2, first_name);
             preparedStatement.setString(3, last_name);
             preparedStatement.setString(4, address);
-            preparedStatement.executeUpdate();
+            ResultSet resultSet = preparedStatement.executeQuery();
+            resultSet.next();
+            id = resultSet.getInt("id");
         } catch (SQLException e) {
             logger.error(e);
         }
-        return true;
+        return id;
     }
 
     @Override

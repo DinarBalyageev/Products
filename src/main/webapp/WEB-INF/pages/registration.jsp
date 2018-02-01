@@ -26,6 +26,22 @@
             <td><input align="center" type="password" name="retryPassword" required/></td>
         </tr>
         <tr>
+        <tr>
+            <td>¬ведите фамилию:</td>
+            <td><input align="center" type="text" name="firstname" required/></td>
+        </tr>
+        <tr>
+            <td>¬ведите им€:</td>
+            <td><input align="center" type="text" name="name" required/></td>
+        </tr>
+        <tr>
+            <td>¬ведите отчество:</td>
+            <td><input align="center" type="text" name="lastname" required/></td>
+        </tr>
+        <tr>
+            <td>¬ведите адрес доставки:</td>
+            <td><input align="center" type="text" name="address" required/></td>
+        </tr>
             <td align="center">
                 <button type="submit" value="OK" style="width: 60px; height:25px;">OK</button>
             </td>

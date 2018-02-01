@@ -20,6 +20,10 @@ public class RegistrationController {
     public ModelAndView postLogin(@RequestParam(value = "userName") String login,
                                   @RequestParam(value = "userPassword") String password,
                                   @RequestParam(value = "retryPassword") String retryPassword,
+                                  @RequestParam(value = "firstname") String firstName,
+                                  @RequestParam(value = "name") String name,
+                                  @RequestParam(value = "lastname") String lastName,
+                                  @RequestParam(value = "address") String address,
                                   Model model) {
         ModelAndView modelAndView = new ModelAndView();
         RegistrationService registrationService = new RegistrationService();
@@ -28,7 +32,8 @@ public class RegistrationController {
         } else if (!password.equals(retryPassword)) {
             model.addAttribute("error", "passworderror");
         } else {
-            registrationService.registration(login, password);
+
+            registrationService.registration(login, password,firstName,name,lastName,address);
             modelAndView.setViewName("redirect:login");
             modelAndView.addObject("error", "enter");
             model.addAttribute("error", "enter");

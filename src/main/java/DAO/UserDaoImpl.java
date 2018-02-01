@@ -34,14 +34,15 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public Boolean add(String login, String password) {
+    public Boolean add(int id, String login, String password) {
         Boolean exit = false;
         try {
             Connection connection = connectionManager.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement
-                    ("INSERT INTO public.login (login, password) VALUES (?, ?);");
-            preparedStatement.setString(1,login);
-            preparedStatement.setString(2,password);
+                    ("INSERT INTO public.login (id_buyer, login, password) VALUES (? ,?, ?);");
+            preparedStatement.setInt(1,id);
+            preparedStatement.setString(2,login);
+            preparedStatement.setString(3,password);
             preparedStatement.executeUpdate();
             exit = true;
         } catch (SQLException e) {
@@ -67,5 +68,22 @@ public class UserDaoImpl implements UserDao {
         }
 
         return exit;
+    }
+
+    @Override
+    public int getId(String login) {
+        int id = 0;
+        try {
+            Connection connection = connectionManager.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement
+                    ("SELECT id_buyer FROM public.login WHERE login=?");
+            preparedStatement.setString(1,login);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            resultSet.next();
+            id = resultSet.getInt("id_buyer");
+        } catch (SQLException e) {
+            logger.error(e);
+        }
+        return id;
     }
 }

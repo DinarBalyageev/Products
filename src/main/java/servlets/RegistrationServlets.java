@@ -32,7 +32,7 @@ public class RegistrationServlets extends HttpServlet {
             } catch (ServletException e) {
                 logger.error(e);
             }
-        } else {registrationService.registration(login, password);
+        } else {registrationService.registration(login, password, "","","","");
             try {
                 req.getRequestDispatcher("/login.jsp?error=enter").forward(req, resp);
             } catch (ServletException e) {

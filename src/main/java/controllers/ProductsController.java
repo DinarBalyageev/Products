@@ -15,7 +15,7 @@ import static oracle.jrockit.jfr.events.Bits.intValue;
 @SessionAttributes({"sessionProductsList", "basketList", "summa"})
 @Controller
 public class ProductsController {
-    private HashMap<Integer, Integer> session = new HashMap();
+    private HashMap<Integer, Integer> sessionProductsList = new HashMap();
 
     @RequestMapping(value = "/products", method = RequestMethod.GET)
     public ModelAndView getLogin() {
@@ -34,16 +34,16 @@ public class ProductsController {
     @RequestParam(value = "target") String target) {
         ModelAndView modelAndView = new ModelAndView();
         if(target.equals("products")){
-        session.put(id, count);
+            sessionProductsList.put(id, count);
         ServiceProducts serviceProducts = new ServiceProducts();
         List<Products> productsList = serviceProducts.getAll();
-        modelAndView.addObject("sessionProductsList", session);
+        modelAndView.addObject("sessionProductsList", sessionProductsList);
         modelAndView.addObject("productsList", productsList);
         modelAndView.setViewName("products");}
         if(target.equals("basket")) {
             Float summa = 0.0F;
             List<Products> basketList = new ArrayList<>();
-            for (Map.Entry<Integer, Integer> entry : session.entrySet()) {
+            for (Map.Entry<Integer, Integer> entry : sessionProductsList.entrySet()) {
                 System.out.println(entry.getKey() + " " + entry.getValue());
                 ServiceProducts serviceProducts = new ServiceProducts();
                 Products basket = serviceProducts.findId(entry.getKey());
@@ -54,11 +54,12 @@ public class ProductsController {
             modelAndView.addObject("summa", summa);
             modelAndView.addObject("basketList", basketList);
             modelAndView.setViewName("redirect:basket");
-            session.clear();
+            sessionProductsList.clear();
             summa = 0.0F;
             basketList = null;
         }
-
+        if(target.equals("order")){
+            modelAndView.setViewName("redirect:order");}
         return modelAndView;
     }
 

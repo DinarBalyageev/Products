@@ -1,6 +1,7 @@
 package DAO;
 
 import POJO.Buyer;
+import POJO.Order;
 import POJO.OrderStatus;
 import POJO.Products;
 import connections.ConnectionManager;
@@ -56,7 +57,7 @@ public class OrderStatusDaoImpl implements OrderStatusDao {
     }
 
     @Override
-    public Buyer gerBuyer(int id_order) {
+    public Buyer getBuyer(int id_order) {
         Connection connection = connectionManager.getConnection();
         Buyer buyer = new Buyer();
         try {
@@ -81,16 +82,16 @@ public class OrderStatusDaoImpl implements OrderStatusDao {
     }
 
     @Override
-    public List<Products> getOrderProducts(int id_order) {
+    public List<OrderStatus> getOrderProducts(int id_buyer) {
         Connection connection = connectionManager.getConnection();
-        List<Products> productsList = new ArrayList<>();
+        List<OrderStatus> orderStatusList = new ArrayList<>();
         try {
             PreparedStatement preparedStatement = connection.prepareStatement
-                    ("SELECT pr.id, pr.name, pr.manufacturer, pr.address, pr.price, pr.count" +
-                            " FROM public.orderstatus os " +
-                            " LEFT JOIN public.products pr ON os.id_order=?" +
-                            " LEFT JOIN public.order ord ON ord.id_product = pr.id");
-            preparedStatement.setInt(1, id_order);
+                    ("select os.id_order, pr.name, pr.id, pr.manufacturer, pr.address, pr.price, ORD.count, OS.status" +
+                            " FROM orderstatus OS " +
+                            " LEFT JOIN \"order\" ORD ON OS.id_order=ORD.id" +
+                            " LEFT JOIN products pr ON pr.id=ORD.id_product WHERE OS.id_buyer=?");
+            preparedStatement.setInt(1, id_buyer);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
                 Products products = new Products(
@@ -101,12 +102,24 @@ public class OrderStatusDaoImpl implements OrderStatusDao {
                         resultSet.getInt("count"),
                         resultSet.getFloat("price")
                 );
-                productsList.add(products);
+                Order order = new Order(
+                        resultSet.getInt("id_order"),
+                        products,
+                        resultSet.getInt("count")
+                );
+                OrderStatus orderStatus = new OrderStatus(
+                        resultSet.getInt("id_order"),
+                        order,
+                        id_buyer,
+                        resultSet.getString("status")
+                );
+
+                orderStatusList.add(orderStatus);
             }
         } catch (SQLException e) {
             logger.error(e);
         }
-        return productsList;
+        return orderStatusList;
     }
 
     @Override
@@ -126,4 +139,30 @@ public class OrderStatusDaoImpl implements OrderStatusDao {
         }
         return id;
     }
+
+    @Override
+    public List<OrderStatus> getFromId(int idBuyer) {
+        List<OrderStatus> orderStatuses = new ArrayList<>();
+        Connection connection = connectionManager.getConnection();
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement
+                    ("SELECT id_buyer, id_order, status FROM public.orderstatus WHERE id_buyer=? ");
+            preparedStatement.setInt(1, idBuyer);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                OrderStatus orderStatus = new OrderStatus(
+                        resultSet.getInt("id_order"),
+                        resultSet.getInt("id_buyer"),
+                        resultSet.getString("status")
+                );
+                orderStatuses.add(orderStatus);
+            }
+        } catch (SQLException e) {
+            logger.error(e);
+        }
+        return orderStatuses;
+    }
 }
+//    select os.id_order, pr.name, pr.manufacturer, pr.address, pr.price, ORD.count, OS.status   FROM orderstatus OS
+//        LEFT JOIN "order" ORD ON OS.id_order=ORD.id
+//        LEFT JOIN products pr ON pr.id=ORD.id_product WHERE OS.id_buyer=1
