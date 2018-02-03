@@ -1,16 +1,22 @@
 package service;
 
 import DAO.UserDao;
-import DAO.UserDaoImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import java.sql.SQLException;
 
+@Service
 public class LoginService {
-    private static UserDao userDao = new UserDaoImpl();
 
-    public boolean autorization(String login,String password) {
+    @Autowired
+    public UserDao userDao;
 
-        if (userDao.get(login,password)==true) return true; else return false;
+    public boolean authorization(String login, String password) {
+        return userDao.get(login,password);
+    }
+
+    public int getId(String login){
+        return userDao.getId(login);
     }
 
 }

@@ -3,24 +3,23 @@ package service;
 import DAO.ProductsDao;
 import DAO.ProductsDaoImpl;
 import POJO.Products;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class ServiceProducts {
-    private ProductsDao productsDao = new ProductsDaoImpl();
+
+    @Autowired
+    private ProductsDao productsDao;
 
     public List<Products> getAll(){
-        List<Products> list = new ArrayList<>();
-        for (Products products: productsDao.getAll()) {
-            list.add(products);
-        }
-        return list;
+        return productsDao.getAll();
     }
 
     public Products findId(int id){
-        Products products = new Products();
-        products = productsDao.findId(id);
-        return products;
+        return productsDao.findId(id);
     }
 }

@@ -19,7 +19,7 @@ public class LoginServlets extends HttpServlet {
         String login = req.getParameter("userName");
         String password = req.getParameter("userPassword");
         LoginService loginService = new LoginService();
-        if (loginService.autorization(login, password) == true) {
+        if (loginService.authorization(login, password) == true) {
             req.getSession().setAttribute("login", login);
             resp.sendRedirect("/order/products");
         } else req.getRequestDispatcher("/login.jsp?error=invalidauth").forward(req, resp);

@@ -3,6 +3,7 @@ package controllers;
 
 import POJO.Products;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
@@ -15,11 +16,13 @@ import static oracle.jrockit.jfr.events.Bits.intValue;
 @SessionAttributes({"sessionProductsList", "basketList", "summa"})
 @Controller
 public class ProductsController {
-    private HashMap<Integer, Integer> sessionProductsList = new HashMap();
+    private HashMap<Integer, Integer> sessionProductsList = new HashMap<>();
+
+    @Autowired
+    ServiceProducts serviceProducts;
 
     @RequestMapping(value = "/products", method = RequestMethod.GET)
     public ModelAndView getLogin() {
-        ServiceProducts serviceProducts = new ServiceProducts();
         ModelAndView modelAndView = new ModelAndView();
         List<Products> productsList = serviceProducts.getAll();
         modelAndView.addObject("productsList", productsList);
@@ -35,7 +38,6 @@ public class ProductsController {
         ModelAndView modelAndView = new ModelAndView();
         if(target.equals("products")){
             sessionProductsList.put(id, count);
-        ServiceProducts serviceProducts = new ServiceProducts();
         List<Products> productsList = serviceProducts.getAll();
         modelAndView.addObject("sessionProductsList", sessionProductsList);
         modelAndView.addObject("productsList", productsList);
@@ -45,7 +47,6 @@ public class ProductsController {
             List<Products> basketList = new ArrayList<>();
             for (Map.Entry<Integer, Integer> entry : sessionProductsList.entrySet()) {
                 System.out.println(entry.getKey() + " " + entry.getValue());
-                ServiceProducts serviceProducts = new ServiceProducts();
                 Products basket = serviceProducts.findId(entry.getKey());
                 basket.setCount(entry.getValue());
                 if (basket.getCount()!=0) basketList.add(basket);

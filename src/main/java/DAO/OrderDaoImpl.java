@@ -5,6 +5,7 @@ import POJO.Products;
 import connections.ConnectionManager;
 import connections.ConnectionManagerPostgresImpl;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -17,10 +18,10 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class OrderDaoImpl implements OrderDao {
     Logger logger = Logger.getLogger(OrderDaoImpl.class);
-    private static ConnectionManager connectionManager
-            = ConnectionManagerPostgresImpl.getInstance();
+    private static ConnectionManager connectionManager = ConnectionManagerPostgresImpl.getInstance();
 
     @XmlRootElement(name = "orderList")
     public static class OrderList {
@@ -66,6 +67,7 @@ public class OrderDaoImpl implements OrderDao {
                         resultSet.getInt("order_count"));
                 orders.add(order);
             }
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -82,6 +84,7 @@ public class OrderDaoImpl implements OrderDao {
             preparedStatement.setInt(2, id_product);
             preparedStatement.setInt(3, count);
             preparedStatement.executeUpdate();
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }

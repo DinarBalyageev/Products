@@ -7,11 +7,13 @@ import POJO.Products;
 import connections.ConnectionManager;
 import connections.ConnectionManagerPostgresImpl;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class OrderStatusDaoImpl implements OrderStatusDao {
     final static Logger logger = Logger.getLogger(OrderStatusDaoImpl.class);
     private static ConnectionManager connectionManager
@@ -35,6 +37,7 @@ public class OrderStatusDaoImpl implements OrderStatusDao {
                 );
                 orderStatuses.add(orderStatus);
             }
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -50,6 +53,7 @@ public class OrderStatusDaoImpl implements OrderStatusDao {
             preparedStatement.setString(1, status);
             preparedStatement.setInt(2, id_order);
             preparedStatement.executeUpdate();
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -75,6 +79,7 @@ public class OrderStatusDaoImpl implements OrderStatusDao {
                 buyer.setLast_name(resultSet.getString("last_name"));
                 buyer.setAddress(resultSet.getString("address"));
             }
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -116,6 +121,7 @@ public class OrderStatusDaoImpl implements OrderStatusDao {
 
                 orderStatusList.add(orderStatus);
             }
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -157,12 +163,10 @@ public class OrderStatusDaoImpl implements OrderStatusDao {
                 );
                 orderStatuses.add(orderStatus);
             }
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }
         return orderStatuses;
     }
 }
-//    select os.id_order, pr.name, pr.manufacturer, pr.address, pr.price, ORD.count, OS.status   FROM orderstatus OS
-//        LEFT JOIN "order" ORD ON OS.id_order=ORD.id
-//        LEFT JOIN products pr ON pr.id=ORD.id_product WHERE OS.id_buyer=1

@@ -8,47 +8,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a211c0f1-e468-45e4-ad38-7a87893491c1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controllers/OrderController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/OrderService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/order.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/OrderStatusService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/bean-definition.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___stc_sample___web_servlet_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___stc_sample___web_servlet_1_0_SNAPSHOT_war__exploded_.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/web-servlet_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/web-servlet_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/web-servlet_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/web-servlet_test.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/BuyerDao.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/BuyerDao.class" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/BuyerDaoImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/BuyerDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderStatusDao.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderStatusDao.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderDaoImpl$OrderList.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderDaoImpl$OrderList.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderDaoImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderDaoImpl.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderStatusDaoImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderStatusDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/UserDao.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/UserDao.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/ProductsDaoImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/ProductsDaoImpl.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/UserDaoImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/UserDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/POJO/OrderStatus.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/POJO/OrderStatus.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/POJO/User.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/POJO/User.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/LoginService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/LoginService.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/RegistrationService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/RegistrationService.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/RegistrationServlets.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/RegistrationServlets.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/web-servlet-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/build/libs/web-servlet-1.0-SNAPSHOT.war" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/BuyerDao.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/BuyerDao.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/ServiceBuyer.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/ServiceBuyer.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/ServiceProducts.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/ServiceProducts.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/BuyerServlets.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/BuyerServlets.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/LoginServlets.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/LoginServlets.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/build/libs/web-servlet-1.0-SNAPSHOT.war" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/BuyerDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/BuyerDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderStatusDao.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/OrderStatusDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderDaoImpl$OrderList.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/OrderDaoImpl$OrderList.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/OrderDaoImpl.class" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderStatusDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/OrderStatusDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/UserDao.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/UserDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/ProductsDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/ProductsDaoImpl.class" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/UserDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/UserDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/POJO/OrderStatus.class" afterPath="$PROJECT_DIR$/out/production/classes/POJO/OrderStatus.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/POJO/User.class" afterPath="$PROJECT_DIR$/out/production/classes/POJO/User.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/service/LoginService.class" afterPath="$PROJECT_DIR$/out/production/classes/service/LoginService.class" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/service/RegistrationService.class" afterPath="$PROJECT_DIR$/out/production/classes/service/RegistrationService.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/servlets/RegistrationServlets.class" afterPath="$PROJECT_DIR$/out/production/classes/servlets/RegistrationServlets.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/BuyerDao.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BuyerDao.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/service/ServiceBuyer.class" afterPath="$PROJECT_DIR$/out/production/classes/service/ServiceBuyer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/service/ServiceProducts.class" afterPath="$PROJECT_DIR$/out/production/classes/service/ServiceProducts.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/servlets/BuyerServlets.class" afterPath="$PROJECT_DIR$/out/production/classes/servlets/BuyerServlets.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/servlets/LoginServlets.class" afterPath="$PROJECT_DIR$/out/production/classes/servlets/LoginServlets.class" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DAO/BuyerDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BuyerDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/OrderStatusDao.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderStatusDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/OrderDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderDaoImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DAO/OrderStatusDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderStatusDaoImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/ProductsDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/ProductsDaoImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDao.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/OrderStatus.java" afterPath="$PROJECT_DIR$/src/main/java/POJO/OrderStatus.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/User.java" afterPath="$PROJECT_DIR$/src/main/java/POJO/User.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/BasketController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/BasketController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/OrderController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/OrderController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ProductsController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/ProductsController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/RegistrationController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/RegistrationController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/LoginService.java" afterPath="$PROJECT_DIR$/src/main/java/service/LoginService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/OrderService.java" afterPath="$PROJECT_DIR$/src/main/java/service/OrderService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/RegistrationService.java" afterPath="$PROJECT_DIR$/src/main/java/service/RegistrationService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/RegistrationServlets.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/RegistrationServlets.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/products.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/products.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/registration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/registration.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ServiceBuyer.java" afterPath="$PROJECT_DIR$/src/main/java/service/ServiceBuyer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ServiceProducts.java" afterPath="$PROJECT_DIR$/src/main/java/service/ServiceProducts.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/BuyerServlets.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/BuyerServlets.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/LoginServlets.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/LoginServlets.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -74,41 +91,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="ordering_products@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ordering_products@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ordering_products@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ordering_products: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ordering_products@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ordering_products: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ordering_products@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ordering_products: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ordering_products@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ordering_products: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="products: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
     </expand>
     <select />
   </component>
@@ -125,48 +107,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="OrderStatusDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderStatusDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="109" column="46" lean-forward="false" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
-              <folding>
-                <marker date="1517520112124" expanded="true" signature="839:977" ph="SELECT ors.i... orderstatus" />
-                <marker date="1517520112124" expanded="true" signature="1817:1872" ph="UPDATE public.orderstatus... " />
-                <marker date="1517520112124" expanded="true" signature="2400:2609" ph="SELECT br.id... buyer" />
-                <marker date="1517520112124" expanded="true" signature="3539:3865" ph="SELECT pr.id... orderstatus" />
-                <marker date="1517520112124" expanded="true" signature="3539:3866" ph="select os.id... orderstatus" />
-                <marker date="1517520112124" expanded="true" signature="5310:5372" ph="INSERT INTO public.orderstatus... " />
-                <marker date="1517520112124" expanded="true" signature="5310:5391" ph="INSERT INTO public.orderstatus... " />
-                <marker date="1517520112124" expanded="true" signature="6053:6110" ph="SELECT id_bu... orderstatus" />
-                <marker date="1517520112124" expanded="true" signature="6053:6127" ph="SELECT id_bu... orderstatus" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/order.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -175,14 +116,20 @@
         <option value="Jsp File" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AuthFilter</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="spring" />
       </map>
     </option>
   </component>
@@ -369,8 +316,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4549229480687" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3484443854" />
+        <entry key="$PROJECT_DIR$" value="4549779291616" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="373467441" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="975608090" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1959367929" />
       </map>
@@ -484,14 +431,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Test/ProductsDaoImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/HelloServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/Products.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/BuyerServlets.java" />
-        <option value="$PROJECT_DIR$/src/main/java/POJO/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/Filters/AuthFilter.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/service/ServiceBuyer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/products.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/dashboards.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/products.jsp" />
@@ -501,40 +442,46 @@
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/registration.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-database.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/service/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/LoginServlets.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/ProductsServlets.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/test/java/service/ServiceProductsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/ServiceProducts.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAO/ProductsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DAO/ProductsDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/basket.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/DAO/OrderDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/registration.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/DAO/BuyerDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DAO/BuyerDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/RegistrationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/RegistrationServlets.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/DAO/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DAO/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/products.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/ProductsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/OrderController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/079ddedf-a0eb-489b-a5d3-9d86060fe4de/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/DAO/OrderStatusDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DAO/OrderStatusDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/POJO/OrderStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/BasketController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/order.jsp" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/BuyerServlets.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/POJO/Buyer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAO/OrderDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/POJO/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAO/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/bean-definition.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/DAO/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/OrderStatusService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/RegistrationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ServiceBuyer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ServiceProducts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAO/ProductsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAO/OrderStatusDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAO/BuyerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/BasketController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/ProductsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/RegistrationController.java" />
       </list>
     </option>
   </component>
@@ -634,6 +581,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -675,23 +630,14 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="web-servlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="products" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -702,7 +648,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../8 week/banks" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -713,16 +659,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\DA\IdeaProjects\6 week\products\src\main\webapp\WEB-INF\pages" />
-      <recent name="C:\Users\DA\IdeaProjects\6 week\products\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\DA\IdeaProjects\6 week\products\src\main\webapp" />
-      <recent name="C:\Users\DA\IdeaProjects\6 week\web-servlet\src\main\webapp" />
-      <recent name="C:\Users\DA\IdeaProjects\6 week\web-servlet\src\main\resources" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="controllers" />
     </key>
@@ -730,6 +666,16 @@
       <recent name="C:\Users\DA\IdeaProjects\6 week\products\src\main\webapp\WEB-INF\pages" />
       <recent name="C:\Users\DA\IdeaProjects\6 week\products\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\DA\IdeaProjects\6 week\web-servlet\src\main\webapp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DA\IdeaProjects\6 week\products\src\main\webapp\WEB-INF\pages" />
+      <recent name="C:\Users\DA\IdeaProjects\6 week\products\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\DA\IdeaProjects\6 week\products\src\main\webapp" />
+      <recent name="C:\Users\DA\IdeaProjects\6 week\web-servlet\src\main\webapp" />
+      <recent name="C:\Users\DA\IdeaProjects\6 week\web-servlet\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1068,7 +1014,11 @@
       <workItem from="1517387122106" duration="1979000" />
       <workItem from="1517426154739" duration="3565000" />
       <workItem from="1517471714971" duration="14849000" />
-      <workItem from="1517518152812" duration="7379000" />
+      <workItem from="1517518152812" duration="7522000" />
+      <workItem from="1517582214113" duration="23000" />
+      <workItem from="1517594269637" duration="1764000" />
+      <workItem from="1517654007978" duration="7980000" />
+      <workItem from="1517676825173" duration="9645000" />
     </task>
     <servers />
   </component>
@@ -1078,7 +1028,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197152000" />
+    <option name="totallyTimeSpent" value="216707000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1091,7 +1041,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4051282" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
@@ -1099,7 +1048,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20045386" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.096066564" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1110,12 +1059,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42905983" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41025642" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42905983" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33675215" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52478635" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31543118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33585477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1126,6 +1074,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52478635" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1163,7 +1112,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1172,206 +1121,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/connections/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Buyer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/SecurityConfig.java" />
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/BuyerServlets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/LoginServlets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.12.RELEASE/11abc6411b0a1491b776de2d8f1287c7a90d9079/spring-webmvc-4.3.12.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/annotation/AnnotationMethodHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="427" column="0" lean-forward="false" selection-start-line="427" selection-start-column="0" selection-end-line="427" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.12.RELEASE/11abc6411b0a1491b776de2d8f1287c7a90d9079/spring-webmvc-4.3.12.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="993" column="0" lean-forward="false" selection-start-line="993" selection-start-column="0" selection-end-line="993" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.12.RELEASE/4c8e2f1d4d02bdda3e1f598cb2fedc0537d1efdd/spring-web-4.3.12.RELEASE-sources.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ProductsServlets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/ServiceProductsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12699">
-          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-database.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ProductsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ProductsDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="139" column="67" lean-forward="false" selection-start-line="139" selection-start-column="67" selection-end-line="139" selection-end-column="67" />
-          <folding>
-            <marker date="1517297998053" expanded="true" signature="1519:1592" ph="SELECT id, n... products" />
-            <marker date="1517297998053" expanded="true" signature="2621:2710" ph="INSERT INTO public.products... " />
-            <marker date="1517297998053" expanded="true" signature="3402:3497" ph="INSERT INTO public.products... " />
-            <marker date="1517297998053" expanded="true" signature="4318:4447" ph="SELECT id, n... products" />
-            <marker date="1517297998053" expanded="true" signature="5396:5509" ph="SELECT id, n... products" />
-            <marker date="1517297998053" expanded="true" signature="5396:5513" ph="SELECT id, n... products" />
-            <marker date="1517297998053" expanded="true" signature="5396:5515" ph="SELECT id, n... products" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/ServiceProducts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="19" column="88" lean-forward="false" selection-start-line="19" selection-start-column="88" selection-end-line="19" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="85" column="28" lean-forward="true" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
-          <folding>
-            <marker date="1517346480308" expanded="true" signature="1467:1701" ph="SELECT ord.i... order" />
-            <marker date="1517346480308" expanded="true" signature="2846:2909" ph="INSERT INTO public.order... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BuyerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BuyerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="97" column="40" lean-forward="true" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
-          <folding>
-            <marker date="1517474553249" expanded="true" signature="1476:1541" ph="SELECT id, n... Buyer" />
-            <marker date="1517474553249" expanded="true" signature="2389:2475" ph="INSERT INTO public.buyer... " />
-            <marker date="1517474553249" expanded="true" signature="3244:3337" ph="INSERT INTO public.buyer... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/RegistrationServlets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/RegistrationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="27" column="55" lean-forward="false" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/registration.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-71">
           <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,43 +1136,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/basket.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,15 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ProductsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1450,27 +1161,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="73" column="15" lean-forward="false" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
-          <folding>
-            <marker date="1517487547169" expanded="true" signature="660:729" ph="SELECT login... login" />
-            <marker date="1517487547169" expanded="true" signature="1561:1630" ph="INSERT INTO public.login... " />
-            <marker date="1517487547169" expanded="true" signature="2226:2270" ph="SELECT login... login" />
-            <marker date="1517487547169" expanded="true" signature="2840:2887" ph="SELECT id_bu... login" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,29 +1181,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderStatusDao.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/079ddedf-a0eb-489b-a5d3-9d86060fe4de/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="51" />
+        <state relative-caret-position="34">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/OrderService.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="339">
+          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/connections/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Filters/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/connections/ConnectionManagerPostgresImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderStatusDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="229" column="18" lean-forward="false" selection-start-line="229" selection-start-column="18" selection-end-line="229" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/RegistrationServlets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/BuyerServlets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/OrderController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ProductsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ProductsServlets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1525,45 +1290,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/079ddedf-a0eb-489b-a5d3-9d86060fe4de/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderStatusDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Buyer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="109" column="46" lean-forward="false" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+        <state relative-caret-position="-676">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <marker date="1517520112124" expanded="true" signature="839:977" ph="SELECT ors.i... orderstatus" />
-            <marker date="1517520112124" expanded="true" signature="1817:1872" ph="UPDATE public.orderstatus... " />
-            <marker date="1517520112124" expanded="true" signature="2400:2609" ph="SELECT br.id... buyer" />
-            <marker date="1517520112124" expanded="true" signature="3539:3865" ph="SELECT pr.id... orderstatus" />
-            <marker date="1517520112124" expanded="true" signature="3539:3866" ph="select os.id... orderstatus" />
-            <marker date="1517520112124" expanded="true" signature="5310:5372" ph="INSERT INTO public.orderstatus... " />
-            <marker date="1517520112124" expanded="true" signature="5310:5391" ph="INSERT INTO public.orderstatus... " />
-            <marker date="1517520112124" expanded="true" signature="6053:6110" ph="SELECT id_bu... orderstatus" />
-            <marker date="1517520112124" expanded="true" signature="6053:6127" ph="SELECT id_bu... orderstatus" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/BasketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1575,10 +1316,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/order.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.12.RELEASE/4c8e2f1d4d02bdda3e1f598cb2fedc0537d1efdd/spring-web-4.3.12.RELEASE-sources.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/reflect/InvocationTargetException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-database.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/bean-definition.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ServiceProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ServiceBuyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/OrderStatusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#531#532#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
+            <element signature="e#640#641#0" expanded="false" />
+            <element signature="e#695#696#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#319#320#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#296#297#0" expanded="false" />
+            <element signature="e#346#347#0" expanded="false" />
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/RegistrationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/POJO/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ProductsDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <marker date="1517686673426" expanded="true" signature="1579:1652" ph="SELECT id, n... products" />
+            <marker date="1517686673426" expanded="true" signature="2681:2770" ph="INSERT INTO public.products... " />
+            <marker date="1517686673426" expanded="true" signature="3494:3589" ph="INSERT INTO public.products... " />
+            <marker date="1517686673426" expanded="true" signature="4442:4571" ph="SELECT id, n... products" />
+            <marker date="1517686673426" expanded="true" signature="5552:5665" ph="SELECT id, n... products" />
+            <marker date="1517686673426" expanded="true" signature="5552:5669" ph="SELECT id, n... products" />
+            <marker date="1517686673426" expanded="true" signature="5552:5671" ph="SELECT id, n... products" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderStatusDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <marker date="1517686673482" expanded="true" signature="899:1037" ph="SELECT ors.i... orderstatus" />
+            <marker date="1517686673482" expanded="true" signature="1909:1964" ph="UPDATE public.orderstatus... " />
+            <marker date="1517686673482" expanded="true" signature="2524:2733" ph="SELECT br.id... buyer" />
+            <marker date="1517686673482" expanded="true" signature="3695:4021" ph="SELECT pr.id... orderstatus" />
+            <marker date="1517686673482" expanded="true" signature="3695:4022" ph="select os.id... orderstatus" />
+            <marker date="1517686673482" expanded="true" signature="5498:5560" ph="INSERT INTO public.orderstatus... " />
+            <marker date="1517686673482" expanded="true" signature="5498:5579" ph="INSERT INTO public.orderstatus... " />
+            <marker date="1517686673482" expanded="true" signature="6241:6298" ph="SELECT id_bu... orderstatus" />
+            <marker date="1517686673482" expanded="true" signature="6241:6315" ph="SELECT id_bu... orderstatus" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <marker date="1517679225220" expanded="true" signature="1515:1749" ph="SELECT ord.i... order" />
+            <marker date="1517679225220" expanded="true" signature="2926:2989" ph="INSERT INTO public.order... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BuyerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <marker date="1517686673615" expanded="true" signature="1536:1601" ph="SELECT id, n... Buyer" />
+            <marker date="1517686673615" expanded="true" signature="2450:2536" ph="INSERT INTO public.buyer... " />
+            <marker date="1517686673615" expanded="true" signature="3337:3430" ph="INSERT INTO public.buyer... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <marker date="1517685397443" expanded="true" signature="789:858" ph="SELECT login... login" />
+            <marker date="1517685397443" expanded="true" signature="1629:1698" ph="INSERT INTO public.login... " />
+            <marker date="1517685397443" expanded="true" signature="2329:2373" ph="SELECT login... login" />
+            <marker date="1517685397443" expanded="true" signature="2965:3012" ph="SELECT id_bu... login" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/BasketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="45" column="66" lean-forward="true" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ProductsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="55" lean-forward="false" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
           <folding />
         </state>
       </provider>

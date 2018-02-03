@@ -4,6 +4,7 @@ import POJO.Products;
 import connections.ConnectionManager;
 import connections.ConnectionManagerPostgresImpl;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -16,6 +17,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class ProductsDaoImpl implements ProductsDao {
     final static Logger logger = Logger.getLogger(ProductsDaoImpl.class);
     private static ConnectionManager connectionManager = ConnectionManagerPostgresImpl.getInstance();
@@ -78,6 +80,7 @@ public class ProductsDaoImpl implements ProductsDao {
             preparedStatement.setInt(4, count);
             preparedStatement.setFloat(5, price);
             preparedStatement.executeUpdate();
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -98,6 +101,7 @@ public class ProductsDaoImpl implements ProductsDao {
             preparedStatement.setInt(5, products.getCount());
             preparedStatement.setFloat(6, products.getPrice());
             preparedStatement.executeUpdate();
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -122,6 +126,7 @@ public class ProductsDaoImpl implements ProductsDao {
                 products.setCount(resultSet.getInt("count"));
                 products.setPrice(resultSet.getFloat("price"));
             }
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -146,6 +151,7 @@ public class ProductsDaoImpl implements ProductsDao {
                 products.setCount(resultSet.getInt("count"));
                 products.setPrice(resultSet.getFloat("price"));
             }
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }

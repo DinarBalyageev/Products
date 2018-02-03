@@ -6,7 +6,6 @@ public class User {
     private  String password;
 
     public User() {
-
     }
 
     public User(int id, String login, String password) {

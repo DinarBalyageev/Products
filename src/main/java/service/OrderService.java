@@ -1,20 +1,17 @@
 package service;
 
-import DAO.OrderStatusDao;
-import DAO.OrderStatusDaoImpl;
-import DAO.UserDao;
-import DAO.UserDaoImpl;
-import POJO.OrderStatus;
-import org.springframework.web.servlet.ModelAndView;
+import DAO.OrderDao;
+import DAO.OrderDaoImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import java.util.List;
-
+@Service
 public class OrderService {
 
-    public List<OrderStatus> getList(String login){
-        OrderStatusDao orderStatusDao = new OrderStatusDaoImpl();
-        UserDao userDao = new UserDaoImpl();
-        List<OrderStatus> orderStatusList = orderStatusDao.getOrderProducts(userDao.getId(login));
-        return orderStatusList;
+    @Autowired
+    private OrderDao orderDao;
+
+    public void add(int idOrder, int idProducts, int count){
+        orderDao.add(idOrder,idProducts,count);
     }
 }

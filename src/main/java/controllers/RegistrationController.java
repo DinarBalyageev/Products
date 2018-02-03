@@ -1,5 +1,6 @@
 package controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +11,9 @@ import service.RegistrationService;
 
 @Controller
 public class RegistrationController {
+
+    @Autowired
+    RegistrationService registrationService;
 
     @RequestMapping(value = "/registration", method = RequestMethod.GET)
     public ModelAndView getLogin() {
@@ -26,14 +30,12 @@ public class RegistrationController {
                                   @RequestParam(value = "address") String address,
                                   Model model) {
         ModelAndView modelAndView = new ModelAndView();
-        RegistrationService registrationService = new RegistrationService();
         if (registrationService.identification(login)) {
             model.addAttribute("error", "invalidlogin");
         } else if (!password.equals(retryPassword)) {
             model.addAttribute("error", "passworderror");
         } else {
-
-            registrationService.registration(login, password,firstName,name,lastName,address);
+            registrationService.registration(login, password, firstName, name, lastName, address);
             modelAndView.setViewName("redirect:login");
             modelAndView.addObject("error", "enter");
             model.addAttribute("error", "enter");

@@ -1,6 +1,5 @@
 package DAO;
 
-import java.sql.SQLException;
 
 public interface UserDao {
     Boolean get(String login, String password);

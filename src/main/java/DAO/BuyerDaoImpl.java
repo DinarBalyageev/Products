@@ -4,6 +4,7 @@ import POJO.Buyer;
 import connections.ConnectionManager;
 import connections.ConnectionManagerPostgresImpl;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -16,6 +17,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class BuyerDaoImpl implements BuyerDao {
     final static Logger logger = Logger.getLogger(BuyerDaoImpl.class);
     private static ConnectionManager connectionManager =
@@ -62,6 +64,7 @@ public class BuyerDaoImpl implements BuyerDao {
         } catch (SQLException e) {
             logger.error(e);
         }
+
         return buyers;
     }
 
@@ -76,6 +79,7 @@ public class BuyerDaoImpl implements BuyerDao {
             preparedStatement.setString(4, buyer.getLast_name());
             preparedStatement.setString(5, buyer.getAddress());
             preparedStatement.executeUpdate();
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -96,6 +100,7 @@ public class BuyerDaoImpl implements BuyerDao {
             ResultSet resultSet = preparedStatement.executeQuery();
             resultSet.next();
             id = resultSet.getInt("id");
+            connection.close();
         } catch (SQLException e) {
             logger.error(e);
         }
