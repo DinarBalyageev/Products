@@ -8,63 +8,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a211c0f1-e468-45e4-ad38-7a87893491c1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/OrderStatusService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/bean-definition.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jpa.xml" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileChanges/last-build.bin" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___stc_sample___web_servlet_1_0_SNAPSHOT_war.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___stc_sample___web_servlet_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___stc_sample___web_servlet_1_0_SNAPSHOT_war__exploded_.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/079ddedf-a0eb-489b-a5d3-9d86060fe4de.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/079ddedf-a0eb-489b-a5d3-9d86060fe4de/storage_v2/_src_/database/ordering_products.bytqDg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/079ddedf-a0eb-489b-a5d3-9d86060fe4de/storage_v2/_src_/database/ordering_products.bytqDg/schema/public.abK9xQ.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/DA.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_servlet_jstl_1_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_16.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__postgresql_postgresql_9_1_901_1_jdbc4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_1_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/web-servlet.iml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/web-servlet_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/web-servlet_main.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/web-servlet_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/web-servlet_test.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/BuyerDaoImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/BuyerDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderDaoImpl$OrderList.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderDaoImpl$OrderList.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderDaoImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderStatusDaoImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderStatusDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/ProductsDaoImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/ProductsDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/UserDaoImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/UserDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/POJO/User.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/POJO/User.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/LoginService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/LoginService.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/RegistrationService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/RegistrationService.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/ServiceBuyer.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/ServiceBuyer.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/BuyerDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/BuyerDaoImpl$BuyerList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/BuyerDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderDaoImpl$OrderList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderStatusDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/OrderStatusDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/ProductsDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/ProductsDaoImpl$ProductsList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/ProductsDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/UserDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/DAO/UserDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/POJO/Buyer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/POJO/Order.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/POJO/OrderStatus.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/POJO/Products.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/POJO/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/connections/ConnectionManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/connections/ConnectionManagerPostgresImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/log/log.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/Filters/AuthFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/LoginService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/RegistrationService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/ServiceBuyer.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/ServiceProducts.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/service/ServiceProducts.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/BuyerServlets.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/BuyerServlets.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/LoginServlets.class" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/LoginServlets.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/BuyerServlets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/LoginServlets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/ProductsServlets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/classes/servlets/RegistrationServlets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-1.2.16.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/lib/postgresql-9.1-901-1.jdbc4.jar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/web-servlet-1.0-SNAPSHOT.war/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/build/libs/web-servlet-1.0-SNAPSHOT.war" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/BuyerDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/BuyerDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderDaoImpl$OrderList.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/OrderDaoImpl$OrderList.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/OrderDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderStatusDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/OrderStatusDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/ProductsDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/ProductsDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/UserDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/DAO/UserDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/POJO/User.class" afterPath="$PROJECT_DIR$/out/production/classes/POJO/User.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/service/LoginService.class" afterPath="$PROJECT_DIR$/out/production/classes/service/LoginService.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/service/RegistrationService.class" afterPath="$PROJECT_DIR$/out/production/classes/service/RegistrationService.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/service/ServiceBuyer.class" afterPath="$PROJECT_DIR$/out/production/classes/service/ServiceBuyer.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/web-servlet-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/build/libs/web-servlet-1.0-SNAPSHOT.war" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/BuyerDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/BuyerDaoImpl$BuyerList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/BuyerDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderDaoImpl$OrderList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderStatusDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/OrderStatusDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/ProductsDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/ProductsDaoImpl$ProductsList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/ProductsDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/UserDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DAO/UserDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/POJO/Buyer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/POJO/Order.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/POJO/OrderStatus.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/POJO/Products.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/POJO/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/connections/ConnectionManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/connections/ConnectionManagerPostgresImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/service/Filters/AuthFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/service/LoginService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/service/RegistrationService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/service/ServiceBuyer.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/service/ServiceProducts.class" afterPath="$PROJECT_DIR$/out/production/classes/service/ServiceProducts.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/servlets/BuyerServlets.class" afterPath="$PROJECT_DIR$/out/production/classes/servlets/BuyerServlets.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/servlets/LoginServlets.class" afterPath="$PROJECT_DIR$/out/production/classes/servlets/LoginServlets.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/BuyerDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BuyerDaoImpl.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/servlets/BuyerServlets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/servlets/LoginServlets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/servlets/ProductsServlets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/servlets/RegistrationServlets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/log/log.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/log4j.properties" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DAO/OrderDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/OrderStatusDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderStatusDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/ProductsDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/ProductsDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/User.java" afterPath="$PROJECT_DIR$/src/main/java/POJO/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/BasketController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/BasketController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/OrderController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/OrderController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ProductsController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/ProductsController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/RegistrationController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/RegistrationController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/LoginService.java" afterPath="$PROJECT_DIR$/src/main/java/service/LoginService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/OrderService.java" afterPath="$PROJECT_DIR$/src/main/java/service/OrderService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/RegistrationService.java" afterPath="$PROJECT_DIR$/src/main/java/service/RegistrationService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ServiceBuyer.java" afterPath="$PROJECT_DIR$/src/main/java/service/ServiceBuyer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAOh/BuyerDAOh.java" afterPath="$PROJECT_DIR$/src/main/java/DAOh/BuyerDAOh.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAOh/Main.java" afterPath="$PROJECT_DIR$/src/main/java/DAOh/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Buyer.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Buyer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repos/BuyerRepo.java" afterPath="$PROJECT_DIR$/src/main/java/repos/BuyerRepo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/OrderStatusService.java" afterPath="$PROJECT_DIR$/src/main/java/service/OrderStatusService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/ServiceProducts.java" afterPath="$PROJECT_DIR$/src/main/java/service/ServiceProducts.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/BuyerServlets.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/BuyerServlets.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/LoginServlets.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/LoginServlets.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/bean-definition.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/bean-definition.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-database.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-database.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -108,11 +167,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RegistrationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/RegistrationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceBuyer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/ServiceBuyer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyerServlets.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlets/BuyerServlets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginServlets.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlets/LoginServlets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="57" column="52" lean-forward="true" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+              <folding>
+                <marker date="1518630729561" expanded="true" signature="1511:1745" ph="SELECT ord.i... order" />
+                <marker date="1518630729561" expanded="true" signature="2922:2985" ph="INSERT INTO public.order... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BasketController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controllers/BasketController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+              <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
               <folding>
                 <element signature="e#878#879#0" expanded="true" />
                 <element signature="e#905#906#0" expanded="true" />
@@ -124,18 +246,38 @@
       <file leaf-file-name="LoginService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/LoginService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="102">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderStatusService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OrderStatusService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/OrderStatusService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductsDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ProductsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -350,8 +492,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4549779291616" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="373467441" />
+        <entry key="$PROJECT_DIR$" value="4550814433412" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2296857025" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="975608090" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1959367929" />
       </map>
@@ -584,6 +726,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -639,6 +783,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderDaoImpl.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="web-servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DAOh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="POJO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -647,7 +816,46 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="XML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-servlet" type="b2602c69:ProjectViewProjectNode" />
@@ -670,8 +878,6 @@
       </pane>
       <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -682,7 +888,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../8 week/banks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-servlet" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -1053,6 +1259,7 @@
       <workItem from="1517594269637" duration="1764000" />
       <workItem from="1517654007978" duration="7980000" />
       <workItem from="1517676825173" duration="9645000" />
+      <workItem from="1518688266661" duration="196000" />
     </task>
     <servers />
   </component>
@@ -1062,7 +1269,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216948000" />
+    <option name="totallyTimeSpent" value="217249000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1082,36 +1289,6 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.096066564" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41025642" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42905983" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.73504275" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33585477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4051282" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.096066564" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1119,23 +1296,27 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41025642" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42905983" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41025642" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42905983" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33675215" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52478635" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33585477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34114978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52478635" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1315,15 +1496,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlets/BuyerServlets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="68">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ProductsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="170">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1372,7 +1554,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1388,7 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1445,17 +1626,14 @@
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#383#384#0" expanded="false" />
-            <element signature="e#426#427#0" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#508#509#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/ServiceBuyer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1474,7 +1652,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/service/RegistrationService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1491,15 +1669,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <marker date="1517686673426" expanded="true" signature="1579:1652" ph="SELECT id, n... products" />
-            <marker date="1517686673426" expanded="true" signature="2681:2770" ph="INSERT INTO public.products... " />
-            <marker date="1517686673426" expanded="true" signature="3494:3589" ph="INSERT INTO public.products... " />
-            <marker date="1517686673426" expanded="true" signature="4442:4571" ph="SELECT id, n... products" />
-            <marker date="1517686673426" expanded="true" signature="5552:5665" ph="SELECT id, n... products" />
-            <marker date="1517686673426" expanded="true" signature="5552:5669" ph="SELECT id, n... products" />
-            <marker date="1517686673426" expanded="true" signature="5552:5671" ph="SELECT id, n... products" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1507,27 +1677,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <marker date="1517686673482" expanded="true" signature="899:1037" ph="SELECT ors.i... orderstatus" />
-            <marker date="1517686673482" expanded="true" signature="1909:1964" ph="UPDATE public.orderstatus... " />
-            <marker date="1517686673482" expanded="true" signature="2524:2733" ph="SELECT br.id... buyer" />
-            <marker date="1517686673482" expanded="true" signature="3695:4021" ph="SELECT pr.id... orderstatus" />
-            <marker date="1517686673482" expanded="true" signature="3695:4022" ph="select os.id... orderstatus" />
-            <marker date="1517686673482" expanded="true" signature="5498:5560" ph="INSERT INTO public.orderstatus... " />
-            <marker date="1517686673482" expanded="true" signature="5498:5579" ph="INSERT INTO public.orderstatus... " />
-            <marker date="1517686673482" expanded="true" signature="6241:6298" ph="SELECT id_bu... orderstatus" />
-            <marker date="1517686673482" expanded="true" signature="6241:6315" ph="SELECT id_bu... orderstatus" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="57" column="52" lean-forward="true" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
           <folding>
-            <marker date="1517679225220" expanded="true" signature="1515:1749" ph="SELECT ord.i... order" />
-            <marker date="1517679225220" expanded="true" signature="2926:2989" ph="INSERT INTO public.order... " />
+            <marker date="1518630729561" expanded="true" signature="1511:1745" ph="SELECT ord.i... order" />
+            <marker date="1518630729561" expanded="true" signature="2922:2985" ph="INSERT INTO public.order... " />
           </folding>
         </state>
       </provider>
@@ -1536,11 +1696,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <marker date="1517686673615" expanded="true" signature="1536:1601" ph="SELECT id, n... Buyer" />
-            <marker date="1517686673615" expanded="true" signature="2450:2536" ph="INSERT INTO public.buyer... " />
-            <marker date="1517686673615" expanded="true" signature="3337:3430" ph="INSERT INTO public.buyer... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1548,12 +1704,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding>
-            <marker date="1517685397443" expanded="true" signature="789:858" ph="SELECT login... login" />
-            <marker date="1517685397443" expanded="true" signature="1629:1698" ph="INSERT INTO public.login... " />
-            <marker date="1517685397443" expanded="true" signature="2329:2373" ph="SELECT login... login" />
-            <marker date="1517685397443" expanded="true" signature="2965:3012" ph="SELECT id_bu... login" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1568,7 +1719,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/BasketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding>
             <element signature="e#878#879#0" expanded="true" />
             <element signature="e#905#906#0" expanded="true" />
@@ -1602,17 +1753,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/LoginService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="102">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/OrderStatusService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
